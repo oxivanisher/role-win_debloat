@@ -3,6 +3,11 @@ Role Name
 
 A brief description of the role goes here.
 
+Notes
+-----
+
+Check this: https://github.com/AlexNabokikh/windows-playbook/blob/master/tasks/debloat.yml
+
 Requirements
 ------------
 
