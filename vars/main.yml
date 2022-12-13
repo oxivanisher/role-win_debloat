@@ -1,2 +1,16 @@
 ---
-# vars file for win_debloat
+
+# check https://github.com/AlexNabokikh/windows-playbook/blob/8be81399018d151e5f4f5ea08034fc4bd0ad30da/default.config.yml#L85
+win_debloadt_bloatware:
+  - Microsoft.BingNews
+  - Microsoft.GetHelp
+  - Microsoft.Getstarted
+  - Microsoft.MicrosoftOfficeHub
+  - Microsoft.Print3D
+  - Microsoft.SkypeApp
+  - Microsoft.WindowsFeedbackHub
+  - Microsoft.WindowsMaps
+  - Microsoft.ZuneMusic
+  - Microsoft.ZuneVideo
+  - MicrosoftTeams
+  - Microsoft.YourPhone
