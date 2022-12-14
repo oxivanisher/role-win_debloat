@@ -7,6 +7,15 @@ Notes
 -----
 
 Check this: https://github.com/AlexNabokikh/windows-playbook/blob/master/tasks/debloat.yml
+And also this: https://www.reddit.com/r/sysadmin/comments/y254xp/how_to_i_remove_apps_like_instagram_facebook_etc/
+Get shit apps:
+```plaintext
+Get-AppxProvisionedPackage -Online | Select-Object DisplayName
+Get-AppxProvisionedPackage –online | where-object {$_.packagename –like "*APP_NAME_HERE*"}
+Get-AppxProvisionedPackage –online | where-object {$_.packagename –like "*APP_NAME_HERE*"} | Remove-AppxProvisionedPackage –online
+```
+
+This is also interesting: https://superuser.com/questions/1740015/disney-just-got-installed-without-my-permission
 
 Requirements
 ------------
