@@ -12,7 +12,7 @@ win_debloadt_bloatware:
   - Microsoft.WindowsMaps
   - Microsoft.ZuneMusic
   - Microsoft.ZuneVideo
-  - Microsoft.Todo
+  - Microsoft.Todos
   - MicrosoftTeams
   - Microsoft.YourPhone
 
