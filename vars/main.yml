@@ -20,6 +20,8 @@ win_debloadt_bloatware:
   - MicrosoftTeams
   - Microsoft.YourPhone
   - Microsoft.Messaging
+  - Microsoft.Clipchamp
+  - Microsoft.Family
 
 
 # missing fucks
