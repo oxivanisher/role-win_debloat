@@ -1,7 +1,12 @@
-Role Name
-=========
+win_debloat
+===========
 
-A brief description of the role goes here.
+Remove unwanted software which Microsoft installs by default or trough updates.
+
+Requirements
+------------
+
+This role is built to be used with Ansible oder SSH on Windows.
 
 Notes
 -----
@@ -15,31 +20,21 @@ Get-AppxProvisionedPackage –online | where-object {$_.packagename –like "*AP
 Get-AppxProvisionedPackage –online | where-object {$_.packagename –like "*APP_NAME_HERE*"} | Remove-AppxProvisionedPackage –online
 ```
 
-This is also interesting: https://superuser.com/questions/1740015/disney-just-got-installed-without-my-permission
-
-Requirements
-------------
-
-Any pre-requisites that may not be covered by Ansible itself or the role should be mentioned here. For instance, if the role uses the EC2 module, it may be a good idea to mention in this section that the boto package is required.
-
 Role Variables
 --------------
 
-A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
-
-Dependencies
-------------
-
-A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles.
+| Name                   | Comment                        | Default value                                        |
+|------------------------|--------------------------------|------------------------------------------------------|
+| win_debloadt_bloatware | List of software to be removed | See the `defaults\main.yml` file, it's quiet a list. |
 
 Example Playbook
 ----------------
-
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
-
-    - hosts: servers
-      roles:
-         - { role: username.rolename, x: 42 }
+```yaml
+- name: Remove windows Bloatware
+  hosts: windows
+  roles:
+    - role: oxivanisher.windows_desktop.win_debloat
+```
 
 License
 -------
@@ -49,4 +44,4 @@ BSD
 Author Information
 ------------------
 
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+This role is part of the [oxivanisher.windows_desktop](https://galaxy.ansible.com/ui/repo/published/oxivanisher/windows_desktop/) collection, and the source for that is located on [github](https://github.com/oxivanisher/collection-windows_desktop).
