@@ -8,6 +8,7 @@ win_debloadt_bloatware:
   - E0469640.LenovoUtility
   - Microsoft.549981C3F5F10 # cortana
   - Microsoft.BingNews
+  - Microsoft.BingSearch
   - Microsoft.BingWeather
   - Microsoft.Clipchamp
   - Microsoft.DevHome
@@ -39,6 +40,7 @@ win_debloadt_bloatware:
   - MicrosoftCorporationII.MicrosoftFamily
   - MicrosoftCorporationII.QuickAssist
   - MicrosoftTeams
+  - MSTeams
 
 # missing stuff / to find
 # - TikTok
