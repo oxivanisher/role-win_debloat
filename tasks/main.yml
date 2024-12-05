@@ -4,8 +4,3 @@
     product_id: "{{ item.name | default(item) }}"
     state: absent
   loop: "{{ win_debloadt_bloatware }}"
-
-- name: Remove unwanted Windows features
-  ansible.windows.win_feature:
-    name: "{{ win_debloadt_features }}"
-    state: absent

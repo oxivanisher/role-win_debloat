@@ -42,9 +42,6 @@ win_debloadt_bloatware:
   - MicrosoftTeams
   - MSTeams
 
-win_debloadt_features:
-  - Windows Media Player Legacy (App)
-
 # missing stuff / to find
 # - TikTok
 # - Instagram

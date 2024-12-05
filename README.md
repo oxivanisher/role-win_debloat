@@ -29,7 +29,6 @@ Role Variables
 | Name                   | Comment                        | Default value                                        |
 |------------------------|--------------------------------|------------------------------------------------------|
 | win_debloadt_bloatware | List of software to be removed | See the `defaults\main.yml` file, it's quiet a list. |
-| win_debloadt_features  | List of features to be removed | Also see the `defaults\main.yml` file.               |
 
 Example Playbook
 ----------------
