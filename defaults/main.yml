@@ -17,7 +17,6 @@ win_debloadt_bloatware:
   - Microsoft.Getstarted
   - Microsoft.Messaging
   - Microsoft.MicrosoftEdge.Stable
-  - Microsoft.MicrosoftEdgeDevToolsClient
   - Microsoft.MicrosoftJournal
   - Microsoft.MicrosoftOfficeHub
   - Microsoft.MicrosoftOfficeHub
@@ -32,6 +31,7 @@ win_debloadt_bloatware:
   - Microsoft.Todos
   - Microsoft.Wallet
   - Microsoft.Whiteboard
+  - Microsoft.Windows.DevHome
   - Microsoft.WindowsFeedbackHub
   - Microsoft.WindowsMaps
   - Microsoft.YourPhone
@@ -41,6 +41,9 @@ win_debloadt_bloatware:
   - MicrosoftCorporationII.QuickAssist
   - MicrosoftTeams
   - MSTeams
+
+win_debloadt_features:
+  - Windows Media Player Legacy (App)
 
 # missing stuff / to find
 # - TikTok

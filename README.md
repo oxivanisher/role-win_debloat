@@ -18,6 +18,9 @@ Get shit apps:
 Get-AppxProvisionedPackage -Online | Select-Object DisplayName
 Get-AppxProvisionedPackage –online | where-object {$_.packagename –like "*APP_NAME_HERE*"}
 Get-AppxProvisionedPackage –online | where-object {$_.packagename –like "*APP_NAME_HERE*"} | Remove-AppxProvisionedPackage –online
+
+# Microsoft is doing everything to push edge down the throat of everyone. I found the latest installed package like this:
+Get-AppxPackage *Microsoft.MicrosoftEdge*
 ```
 
 Role Variables
@@ -26,6 +29,7 @@ Role Variables
 | Name                   | Comment                        | Default value                                        |
 |------------------------|--------------------------------|------------------------------------------------------|
 | win_debloadt_bloatware | List of software to be removed | See the `defaults\main.yml` file, it's quiet a list. |
+| win_debloadt_features  | List of features to be removed | Also see the `defaults\main.yml` file.               |
 
 Example Playbook
 ----------------
