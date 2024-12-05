@@ -17,7 +17,7 @@ win_debloadt_bloatware:
   - Microsoft.Getstarted
   - Microsoft.Messaging
   - Microsoft.MicrosoftEdge.Stable
-  - Microsoft.MicrosoftEdge.Stable
+  - Microsoft.MicrosoftEdgeDevToolsClient
   - Microsoft.MicrosoftJournal
   - Microsoft.MicrosoftOfficeHub
   - Microsoft.MicrosoftOfficeHub
