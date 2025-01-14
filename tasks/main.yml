@@ -3,4 +3,4 @@
   ansible.windows.win_package:
     product_id: "{{ item.name | default(item) }}"
     state: absent
-  loop: "{{ win_debloadt_bloatware }}"
+  loop: "{{ win_debloat_bloatware }}"
