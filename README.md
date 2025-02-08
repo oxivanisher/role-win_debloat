@@ -1,5 +1,6 @@
 win_debloat
 ===========
+[![Ansible Lint](https://github.com/oxivanisher/role-win_debloat/actions/workflows/ansible-lint.yml/badge.svg)](https://github.com/oxivanisher/role-win_debloat/actions/workflows/ansible-lint.yml)
 
 Remove unwanted software which Microsoft installs by default or trough updates.
 
