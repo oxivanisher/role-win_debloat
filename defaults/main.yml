@@ -11,6 +11,7 @@ win_debloat_bloatware:
   - Microsoft.BingSearch
   - Microsoft.BingWeather
   - Microsoft.Clipchamp
+  - Microsoft.Copilot
   - Microsoft.DevHome
   - Microsoft.Family
   - Microsoft.GetHelp
@@ -23,6 +24,7 @@ win_debloat_bloatware:
   - Microsoft.MicrosoftStickyNotes
   - Microsoft.MixedReality.Portal
   - Microsoft.Office.OneNote
+  - Microsoft.OneDrive
   - Microsoft.OutlookForWindows
   - Microsoft.People
   - Microsoft.PowerAutomateDesktop
