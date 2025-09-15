@@ -30,6 +30,7 @@ win_debloat_bloatware:
   - Microsoft.PowerAutomateDesktop
   - Microsoft.Print3D
   - Microsoft.SkypeApp
+  - Microsoft.StartExperiencesApp
   - Microsoft.Todos
   - Microsoft.Wallet
   - Microsoft.Whiteboard
