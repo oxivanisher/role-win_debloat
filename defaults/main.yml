@@ -20,7 +20,6 @@ win_debloat_bloatware:
   - Microsoft.MicrosoftEdge.Stable
   - Microsoft.MicrosoftJournal
   - Microsoft.MicrosoftOfficeHub
-  - Microsoft.MicrosoftOfficeHub
   - Microsoft.MicrosoftStickyNotes
   - Microsoft.MixedReality.Portal
   - Microsoft.Office.OneNote
