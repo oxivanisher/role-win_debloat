@@ -13,6 +13,7 @@ win_debloat_bloatware:
   - Microsoft.Clipchamp
   - Microsoft.Copilot
   - Microsoft.DevHome
+  - Microsoft.Edge.GameAssist
   - Microsoft.Family
   - Microsoft.GetHelp
   - Microsoft.Getstarted
