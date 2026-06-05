@@ -12,6 +12,8 @@ win_debloat_bloatware:
   - Microsoft.BingWeather
   - Microsoft.Clipchamp
   - Microsoft.Copilot
+  - Microsoft.Windows.Copilot
+  - MicrosoftWindows.Client.WebExperience  # Widgets/Copilot sidebar host
   - Microsoft.DevHome
   - Microsoft.Edge.GameAssist
   - Microsoft.Family
